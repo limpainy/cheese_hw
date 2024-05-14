@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    width: auto;
+    height: 160vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(68, 67, 67, 0.75)), url('cheeseback.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.cheese_spacing{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 15px;
+}
+.cheese_img{
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.cheese_img:hover{
+    transform: scale(1.1);
+}
+.introduction{
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.cheese_txt{
+    font-size: 15px;
+    font-family: "Poetsen One", sans-serif;
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+}
+.cheese_name{
+    font-family: "Teko", sans-serif;;
+    font-size: 50px;
+    color: #fff;
+
+}
+.centering{
+    text-align: center;
+    background:rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+}
